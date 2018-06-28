@@ -1,0 +1,15 @@
+{
+  "url": "http://local.wordpress.dev/",
+  "adminUsername": "gooten",
+  "adminPassword": "welcome",
+  "pageLoginUrl": "wp-login.php?loggedout=true",
+  "pageGootenSettingsUrl": "wp-admin/admin.php?page=gooten_settings",
+  "pageAdminPostProductUrl": "wp-admin/post-new.php?post_type=product",
+  "pageAdminOrdersUrl": "wp-admin/edit.php?post_type=shop_order",
+  "pageLogoutUrl": "wp-login.php?action=logout",
+  "pageDummyGatewaySettings": "wp-admin/admin.php?page=wc-settings&tab=checkout&section=wc_dummy_gateway",
+  "pageShopUrl": "shop/",
+  "pageCheckoutUrl": "checkout/",
+  "validRecipeId": "1AB4E1F8-DBCB-4D6C-829F-EE0B2A60C0B3",
+  "validBillingKey": "oeO2j1ZbfU0TaDPRrhStEyp68ZRbXK8UfWfq7BKICGY="
+}

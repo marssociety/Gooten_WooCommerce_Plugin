@@ -1,0 +1,181 @@
+/* General style */
+
+.gtn-w10p {
+    width: 10%;
+}
+
+.gtn-w20p {
+    width: 20%;
+}
+
+.gtn-w30p {
+    width: 30%;
+}
+
+.gtn-w50p {
+    width: 50%;
+}
+
+.gtn-w70p {
+    width: 70%;
+}
+
+.gtn-w100p {
+    width: 100%;
+}
+
+/* PRP Item */
+
+.gtn-prp-item {
+    height: 60px;
+    width: 100%;
+}
+
+.gtn-prp-item img {
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+
+.gtn-prp-item .gtn-prp-text-container {
+    height: 60px;
+    width: auto;
+    overflow: hidden;
+    padding-left: 10px;
+}
+
+.gtn-prp-text-container div {
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: auto;
+}
+
+/* Loading indicator */
+
+.gtn-loading-indicator-overlay {
+    z-index: 1000;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: rgb(255, 255, 255);
+    opacity: 0.6;
+    cursor: wait;
+    position: absolute;
+}
+
+/* Gooten product data */
+
+.gtn-variant {
+}
+
+.gtn-variant label {
+    float: left;
+    width: 150px;
+    padding: 0 10px 0 0;
+    margin: 0;
+}
+
+.gtn-variant input {
+    float: left;
+}
+
+.gtn-variant .gtn-variant-attributes {
+    background-color: #fdfdfd;
+    border-bottom: 1px solid #eee;
+    padding: 1em 2em;
+}
+
+.gtn-variant .gtn-variant-left {
+    display: inline-block;
+    width: 20%;
+    max-width: 100px;
+    float: left;
+    margin-right: 10px;
+}
+
+.gtn-variant .gtn-variant-right {
+    display: inline-block;
+    width: 75%;
+    float: left;
+}
+
+.gtn-variant .gtn-variant-row {
+    padding: 5px 20px 5px 0;
+}
+
+.gtn-variant .gtn-variant-ib {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.gtn-variant .gtn-wauto {
+    width: auto !important;
+}
+
+.gtn-variant-header {
+    border-bottom: 1px solid #eee;
+    margin: 0;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.gtn-variant .gtn-variant-header:hover .gtn-delete-variation {
+    display: block;
+}
+
+.gtn-variant .gtn-variant-header strong {
+    margin-right: 20px;
+    vertical-align: top;
+}
+
+.gtn-variant .gtn-delete-variation {
+    color: red;
+    font-weight: 400;
+    text-decoration: none;
+    position: relative;
+    float: right;
+    display: none;
+    font-size: 12px !important;
+}
+
+#gooten_undefined_variants h3 {
+    margin: 0;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.gtn-variant-undefined {
+    border-top: 1px solid #eee;
+}
+
+.gtn-variant-undefined .gtn-variant-add {
+    color: green;
+    font-weight: 400;
+    text-decoration: none;
+    position: relative;
+    float: right;
+    display: none;
+    font-size: 12px !important;
+}
+
+#gooten_undefined_variants h3:hover .gtn-variant-add {
+    display: block;
+}
+
+.gtn-variant-selector {
+    display: inline-block;
+}
+
+.gtn-variant-selector select {
+    margin-right: 5px;
+}

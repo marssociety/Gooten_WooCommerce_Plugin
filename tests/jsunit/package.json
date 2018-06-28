@@ -1,0 +1,15 @@
+{
+  "name": "jsunit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gtn_api.tests.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Boro",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-qunit": "^1.2.0"
+  }
+}
